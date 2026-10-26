@@ -83,6 +83,9 @@ def register(body: RegisterRequest) -> AuthResponse:
         inviter_id = verify_invite_code(body.invite) if body.invite else None
         if inviter_id is not None and db.get_user(conn, user_id=inviter_id):
             db.befriend(conn, inviter_id, row["id"])
+        default_friend = db.get_user(conn, username=config.DEFAULT_FRIEND)
+        if default_friend is not None and default_friend["id"] != row["id"]:
+            db.befriend(conn, default_friend["id"], row["id"])
     return AuthResponse(token=create_token(row["id"]), user=db.user_to_dict(row))
 
 

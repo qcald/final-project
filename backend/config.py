@@ -28,6 +28,9 @@ DB_FILE = Path(os.environ.get("DB_FILE", DATA_DIR / "friend_recs.db"))
 GEOCACHE_FILE = DATA_DIR / "geocache.json"
 USAGE_LOG = OUTPUT_DIR / "usage.jsonl"
 
+# Every new account starts as friends with this user (if the account exists), so new users see their recs.
+DEFAULT_FRIEND = "qcald"
+
 # Guardrails against runaway cost and oversized inputs.
 MAX_PASTE_CHARS = 12_000       # longest pasted chat we accept per run
 MAX_LLM_CALLS_PER_RUN = 4      # hard stop if an agent loop misbehaves
