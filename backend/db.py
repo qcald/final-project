@@ -61,7 +61,8 @@ CREATE TABLE IF NOT EXISTS saves (
 
 # Demo accounts for the sample data. Everyone shares this test password (see README).
 DEMO_PASSWORD = "friendrecs"
-DEMO_USERS = [("maya", "Maya"), ("jordan", "Jordan"), ("priya", "Priya"), ("sam", "Sam"), ("dana", "Dana")]
+DEMO_USERS = [("maya", "Maya"), ("jordan", "Jordan"), ("priya", "Priya"), ("sam", "Sam"), ("dana", "Dana"),
+              ("qcald", "Quinn")]  # qcald is the default friend for new accounts (config.DEFAULT_FRIEND)
 DEMO_FRIENDS = [("maya", "jordan"), ("maya", "priya"), ("maya", "sam")]
 DEMO_REQUESTS = [("dana", "maya")]  # Dana's request is waiting for Maya, so the accept flow can be tried
 

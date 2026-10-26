@@ -283,5 +283,100 @@
         "sentiment": "avoid"
       }
     ]
+  },
+  {
+    "id": "3a1649bb",
+    "key": "node/2441481474",
+    "name": "September in Bangkok",
+    "city": "New Haven",
+    "country": "United States",
+    "category": "food",
+    "verified": true,
+    "lat": 41.3117807,
+    "lon": -72.9161404,
+    "address": "September in Bangkok, 754, State Street, Upper State Street Historic District, Barnesville, New Haven, Connecticut, 06511, United States",
+    "recs": [
+      {
+        "friend": "Quinn",
+        "quote": "Great thai food, krad pow kai gow is awesome",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "630d7176",
+    "key": "node/2476962287",
+    "name": "Diesel Lounge",
+    "city": "New Haven",
+    "country": "United States",
+    "category": "drinks",
+    "verified": true,
+    "lat": 41.3151753,
+    "lon": -72.9106936,
+    "address": "Diesel Lounge, 944, State Street, Upper State Street Historic District, East Rock, New Haven, Connecticut, 06511, United States",
+    "recs": [
+      {
+        "friend": "Quinn",
+        "quote": "Neighborhood dive bar, good drink specials, hockey club hangout",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "76ffd2be",
+    "key": "node/359262702",
+    "name": "East Rock",
+    "city": "New Haven",
+    "country": "United States",
+    "category": "stay",
+    "verified": true,
+    "lat": 41.3271114,
+    "lon": -72.9043331,
+    "address": "East Rock, New Haven, South Central Connecticut Planning Region, Connecticut, 06504, United States",
+    "recs": [
+      {
+        "friend": "Quinn",
+        "quote": "Grad student neighborhood with great restaraunts and coffee shops, east rock park has some great hikes",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "825368e3",
+    "key": "way/3869991",
+    "name": "MHP Arena",
+    "city": "Stuttgart",
+    "country": "Deutschland",
+    "category": "activity",
+    "verified": true,
+    "lat": 48.7922488,
+    "lon": 9.2320857,
+    "address": "MHPArena, 87, Mercedesstraße, Wasen, Bad Cannstatt, Stuttgart, Baden-Württemberg, 70372, Deutschland",
+    "recs": [
+      {
+        "friend": "Quinn",
+        "quote": "Go see a VfB match if you're ever in town, incredible atmosphere and a cool stadium.  Enjoy the bier and wurst on the walk from the u bahn",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "1799d92b",
+    "key": "land s end park|san francisco",
+    "name": "Land's End Park",
+    "city": "San Francisco",
+    "country": "",
+    "category": "sight",
+    "verified": false,
+    "lat": null,
+    "lon": null,
+    "address": "",
+    "recs": [
+      {
+        "friend": "Quinn",
+        "quote": "Cool headlands to \"hike\" through in the city, amazing views of the bay and golden gate bridge",
+        "sentiment": "love"
+      }
+    ]
   }
 ]

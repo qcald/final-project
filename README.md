@@ -39,8 +39,10 @@ uvicorn main:app --port 8000
 
 ## Try it
 
-Every demo account (`maya`, `jordan`, `priya`, `sam`, `dana`) uses the test password `friendrecs`.
-Maya is friends with Jordan, Priya, and Sam, and has a pending request from Dana.
+Every demo account (`maya`, `jordan`, `priya`, `sam`, `dana`, `qcald`) uses the test password `friendrecs`.
+Maya is friends with Jordan, Priya, and Sam, and has a pending request from Dana. `qcald` is me (Quinn),
+with my own real recommendations from New Haven, Stuttgart, and San Francisco. Every new account you
+sign up starts out friends with `qcald`, so a brand-new user sees real recs right away.
 
 1. **Ask:** on the **Map** page, choose **Lisbon**, type *"2 days here, I love food and sunsets.
    Where should I stay?"*, and click **Ask**. You get numbered picks on the map with friends' quotes,
