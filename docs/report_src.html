@@ -406,7 +406,7 @@ the two real places.</figcaption></figure>
 "1 line(s) flagged" and "the model also refused 1 instruction line(s)" show two independent layers catching
 the same attack.</figcaption></figure>
 
-<pre>$ python -m pytest tests -v
+<pre>$ python -m pytest tests/test_safety.py -v
 {{TEST_RESULTS}}</pre>
 <p class="caption">Figure 7. The full safety test suite.</p>
 
@@ -445,7 +445,7 @@ __:__ in Friend Recs (N = __)." Add "__ of __ couldn't remember who recommended 
   schemas back them up.</li>
   <li><strong>The benchmark is small and synthetic.</strong> 23 places and 4 questions, all of which every
   setting got right. It shows cost differences clearly, but not where quality would start to break.</li>
-  <li><strong>Sample data is fictional</strong>, and there's no mobile app: importing means copying text from
+  <li><strong>Sample data is mostly fictional</strong> (the demo friends are made up; the <code>qcald</code> account's 5 posts are my own real recommendations), and there's no mobile app: importing means copying text from
   a phone into a browser.</li>
   <li><strong>The public geocoder won't scale</strong> past light use (Section 4).</li>
 </ul>
