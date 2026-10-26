@@ -4,7 +4,16 @@ Travel recommendations from people you trust. Share your own picks with friends,
 old recs out of group chats and Google Maps lists, see them all on a map, and ask for a plan that
 only uses places your friends actually recommended.
 
+Repo: https://github.com/qcald/final-project (public)
+
 ## Run it (about 2 minutes, Python only)
+
+**0. Clone.**
+
+```bash
+git clone https://github.com/qcald/final-project.git
+cd final-project
+```
 
 You need Python 3.11+. The React app is already built into `frontend/dist`, and the backend serves it.
 
