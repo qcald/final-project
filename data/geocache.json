@@ -1,0 +1,141 @@
+{
+ "Time Out Market, Lisbon, Portugal": {
+  "osm_id": "way/1286260412",
+  "lat": 38.7070934,
+  "lon": -9.1458973,
+  "address": "Time Out Market Lisboa, 49, Praça Dom Luís I, São Paulo, Misericórdia, Lisboa, 1200-479, Portugal"
+ },
+ "Manteigaria, Lisbon, Portugal": {
+  "osm_id": "node/10729797752",
+  "lat": 38.7114911,
+  "lon": -9.1381025,
+  "address": "Manteigaria, Rua Augusta, Santa Maria Maior, Madalena, Lisboa, 1100-050, Portugal"
+ },
+ "Miradouro da Senhora do Monte, Lisbon, Portugal": {
+  "osm_id": "node/14243536001",
+  "lat": 38.7190781,
+  "lon": -9.1329112,
+  "address": "Miradouro da Senhora do Monte, Rua da Senhora do Monte, Graça, São Vicente, Lisboa, 1170-112, Portugal"
+ },
+ "Tram 28, Lisbon, Portugal": null,
+ "Cervejaria Ramiro, Lisbon, Portugal": {
+  "osm_id": "node/2503432815",
+  "lat": 38.7201981,
+  "lon": -9.1357063,
+  "address": "Cervejaria Ramiro, 104, Avenida Almirante Reis, Anjos, Arroios, Lisboa, 1169-199, Portugal"
+ },
+ "LX Factory, Lisbon, Portugal": {
+  "osm_id": "way/221960606",
+  "lat": 38.7026001,
+  "lon": -9.1786619,
+  "address": "LX Factory, 103, Alcântara, Lisboa, 1300-501, Portugal"
+ },
+ "Ler Devagar, Lisbon, Portugal": {
+  "osm_id": "node/7827698785",
+  "lat": 38.7027611,
+  "lon": -9.178434,
+  "address": "Ler Devagar, 103, Rua Rodrigues Faria, Santo Amaro, Alcântara, Lisboa, 1300-501, Portugal"
+ },
+ "Sintra, Sintra, Portugal": {
+  "osm_id": "node/25611733",
+  "lat": 38.79846,
+  "lon": -9.3881,
+  "address": "Sintra, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Sintra, Lisboa, 2710-631, Portugal"
+ },
+ "Pena Palace, Sintra, Portugal": {
+  "osm_id": "node/1831390489",
+  "lat": 38.7879657,
+  "lon": -9.3871284,
+  "address": "Palácio da Pena, Calçada da Pena, São Pedro de Penaferrim, Sintra, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Sintra, Lisboa, 2710-609, Portugal"
+ },
+ "A Cevicheria, Lisbon, Portugal": {
+  "osm_id": "node/1952693681",
+  "lat": 38.7159634,
+  "lon": -9.1474955,
+  "address": "A Cevicheria, Rua Dom Pedro V, Bairro Alto, Misericórdia, Lisboa, 1250-184, Portugal"
+ },
+ "Park bar, Lisbon, Portugal": {
+  "osm_id": "node/4569935590",
+  "lat": 38.7111966,
+  "lon": -9.1476098,
+  "address": "Park Rooftop, 58, Calçada do Combro, Bairro Alto, Misericórdia, Lisboa, 1200-025, Portugal"
+ },
+ "Contramar, Mexico City, Mexico": {
+  "osm_id": "node/4630628889",
+  "lat": 19.419611,
+  "lon": -99.1672259,
+  "address": "Contramar, 200, Calle Durango, Roma Norte, Condesa, Ciudad de México, Cuauhtémoc, Ciudad de México, 06700, México"
+ },
+ "Museo Nacional de Antropología, Mexico City, Mexico": {
+  "osm_id": "way/433756023",
+  "lat": 19.4261524,
+  "lon": -99.1866516,
+  "address": "Museo Nacional de Antropología, Plaza de acceso, 1a. Sección del Bosque de Chapultepec, Polanco, Ciudad de México, Miguel Hidalgo, Ciudad de México, 11560, México"
+ },
+ "Café Avellaneda, Mexico City, Mexico": {
+  "osm_id": "node/4348835091",
+  "lat": 19.3482498,
+  "lon": -99.1606896,
+  "address": "Café Avellaneda, 40, Calle Higuera, Colonia La Concepción, Coyoacán, Ciudad de México, Coyoacán, Ciudad de México, 04020, México"
+ },
+ "Arena México, Mexico City, Mexico": {
+  "osm_id": "way/262616503",
+  "lat": 19.4246141,
+  "lon": -99.1520014,
+  "address": "Arena México, Calle Doctor Rafaél Lucio, Doctores, Roma, Ciudad de México, Cuauhtémoc, Ciudad de México, 06720, México"
+ },
+ "El Huequito, Mexico City, Mexico": {
+  "osm_id": "node/12749170253",
+  "lat": 19.4309211,
+  "lon": -99.1560155,
+  "address": "El Huequito, 91, Calle General Prim, Juárez, Roma, Ciudad de México, Cuauhtémoc, Ciudad de México, 06600, México"
+ },
+ "Xochimilco, Mexico City, Mexico": {
+  "osm_id": "relation/5606640",
+  "lat": 19.2633607,
+  "lon": -99.1047377,
+  "address": "Xochimilco, Ciudad de México, México"
+ },
+ "Park Bar, Lisbon, Portugal": {
+  "osm_id": "node/4569935590",
+  "lat": 38.7111966,
+  "lon": -9.1476098,
+  "address": "Park Rooftop, 58, Calçada do Combro, Bairro Alto, Misericórdia, Lisboa, 1200-025, Portugal"
+ },
+ "Pastéis de Belém, Lisbon": {
+  "osm_id": "node/398922337",
+  "lat": 38.6974795,
+  "lon": -9.2033202,
+  "address": "Pastéis de Belém, 84-92, Rua de Belém, São Francisco Xavier, Belém, Lisboa, 1300-085, Portugal"
+ },
+ "Taberna da Rua das Flores, Lisbon, Portugal": {
+  "osm_id": "node/4213522792",
+  "lat": 38.7101395,
+  "lon": -9.1435869,
+  "address": "Taberna Da Rua das Flores, 94, Rua das Flores, Encarnação, Misericórdia, Lisboa, 1200-213, Portugal"
+ },
+ "Time Out Market, Lisbon": {
+  "osm_id": "way/1286260412",
+  "lat": 38.7070934,
+  "lon": -9.1458973,
+  "address": "Time Out Market Lisboa, 49, Praça Dom Luís I, São Paulo, Misericórdia, Lisboa, 1200-479, Portugal"
+ },
+ "Café de São Bento, Lisbon, Portugal": {
+  "osm_id": "node/4692271866",
+  "lat": 38.7132275,
+  "lon": -9.1530828,
+  "address": "Café de São Bento, 212, Rua de São Bento, Prazeres, Estrela, Lisboa, 1200-821, Portugal"
+ },
+ "Miradouro de Santa Luzia, Lisbon, Portugal": {
+  "osm_id": "node/5446794770",
+  "lat": 38.7117382,
+  "lon": -9.1301295,
+  "address": "Miradouro de Santa Luzia, Largo de Santa Luzia, Santiago, Santa Maria Maior, Madalena, Lisboa, 1100-487, Portugal"
+ },
+ "Livraria Bertrand, Lisbon, Portugal": {
+  "osm_id": "node/4398508489",
+  "lat": 38.7106621,
+  "lon": -9.1411539,
+  "address": "Livraria Bertrand - Chiado, 73, Rua Garrett, Chiado, Santa Maria Maior, Madalena, Lisboa, 1200-203, Portugal"
+ }
+}

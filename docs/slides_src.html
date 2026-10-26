@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Friend Recs: slides</title>
+<!-- reveal.js from the CDN; an embedded copy (end of file) is used only if the CDN can't be reached. -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.0/dist/reveal.css">
+<style>
+  :root { --ink:#15171c; --ink2:#474b54; --muted:#8a8e97; --line:#e7e4dd; --soft:#f7f6f2; --accent:#f0643c; --accent-soft:#fff0ea; }
+  html, body { background: var(--soft); }
+  .reveal { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; color: var(--ink); font-size: 30px; }
+  .reveal .slides { text-align: left; }
+  .reveal .slides section { height: 100%; padding: 10px 20px; }
+  .reveal h1, .reveal h2 { font-weight: 800; letter-spacing: -0.03em; color: var(--ink); margin: 0 0 18px; line-height: 1.08; text-transform: none; }
+  .reveal h1 { font-size: 2.3em; }
+  .reveal h2 { font-size: 1.45em; }
+  .reveal h1 em, .reveal h2 em { font-style: normal; color: var(--accent); }
+  .reveal p, .reveal li { color: var(--ink2); line-height: 1.4; }
+  .reveal strong { color: var(--ink); }
+  .reveal ul { margin: 0; }
+  .reveal li { margin-bottom: 10px; }
+  .eyebrow { font-size: 0.5em !important; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent) !important; margin: 0 0 10px !important; }
+  .small { font-size: 0.62em; }
+  .tiny { font-size: 0.45em; color: var(--muted) !important; }
+  .grid2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 18px 20px; box-shadow: 0 8px 24px -12px rgba(21,23,28,.18); }
+  .card b { display: block; font-size: 1.5em; letter-spacing: -0.02em; color: var(--ink); }
+  .card span { font-size: 0.55em; color: var(--muted); font-weight: 600; }
+  .stat b { color: var(--accent); }
+  .reveal img.shot { display: block; width: 100%; max-width: 100%; height: auto; max-height: 470px; object-fit: contain; object-position: top; border-radius: 14px; border: 1px solid var(--line); box-shadow: 0 12px 30px -14px rgba(21,23,28,.35); margin: 0; }
+  .reveal table { font-size: 0.5em; border-collapse: collapse; width: 100%; }
+  .reveal table th, .reveal table td { border-bottom: 1px solid var(--line); padding: 7px 10px; text-align: left; }
+  .reveal table th { background: #fff; font-weight: 700; }
+  .reveal table td.num, .reveal table th.num { text-align: right; }
+  .quote { font-size: 0.75em; font-style: italic; color: var(--ink) !important; border-left: 4px solid var(--accent); padding-left: 16px; }
+  .todo { font-size: 0.5em; background: #fff7d6; border: 2px dashed #e0b400; color: #6b5300 !important; border-radius: 12px; padding: 10px 14px; }
+  .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 800; font-size: 0.7em; color: var(--ink); }
+  .brand i { width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg,#ff8a5c,#f0643c 55%,#e0457b); display: inline-block; }
+  .diagram { width: 100%; height: auto; max-height: 470px; }
+  .reveal .controls { color: var(--accent); }
+  .reveal .progress { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="reveal"><div class="slides">
+
+<!-- 1. Title -->
+<section>
+  <p class="brand"><i></i> Friend Recs</p>
+  <h1 style="margin-top:40px">Skip the strangers' reviews.<br>Go where your <em>friends</em> went.</h1>
+  <p>An AI app that turns travel recommendations buried in group chats into a shared map, and plans trips
+  using only places your friends actually recommended.</p>
+  <p class="small" style="margin-top:40px"><strong>Quinn Calderone</strong> · AI Foundations for Managers · Final Project</p>
+</section>
+
+<!-- 2. Problem and audience -->
+<section>
+  <p class="eyebrow">The problem</p>
+  <h2>The recs people trust most are the ones they can't find</h2>
+  <div class="grid2">
+    <ul class="small">
+      <li><strong>Who:</strong> anyone planning a trip who has friends who've been there.</li>
+      <li><strong>Today:</strong> "Who's been to Lisbon?" gets great replies in a group chat, and three months later
+      they're buried under hundreds of messages, notes, and screenshots.</li>
+      <li><strong>So people fall back</strong> on strangers' reviews, or on AI that makes things up.</li>
+    </ul>
+    <div class="grid3" style="grid-template-columns:1fr; gap:12px">
+      <div class="card stat"><b>84%</b><span>say friends' and family's recommendations are the most influential source (Nielsen)</span></div>
+      <div class="card stat"><b>31% vs 9%</b><span>of travelers would follow friends' picks vs. AI for a free afternoon (Greetwell, 2026)</span></div>
+      <div class="card stat"><b>1 in 6</b><span>AI travel users were given destinations or details that didn't exist (Stacker, 2026)</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. What is new -->
+<section>
+  <p class="eyebrow">What's new</p>
+  <h2>Reads recs where they already live, and plans only from them</h2>
+  <table>
+    <tr><th>Product</th><th>Good at</th><th>Missing for this problem</th></tr>
+    <tr><td><strong>Beli</strong></td><td>Friends' restaurant rankings</td><td>Restaurants only; everything logged by hand</td></tr>
+    <tr><td><strong>Corner</strong></td><td>Save places from links, follow friends</td><td>Manual curation; no planning from friends' words</td></tr>
+    <tr><td><strong>Mapstr</strong></td><td>Saved places; imports Google Maps / CSV lists</td><td>Structured lists only, not chats</td></tr>
+    <tr><td><strong>Wanderlog</strong></td><td>Itineraries with an AI assistant</td><td>Suggestions from the web, not your friends</td></tr>
+    <tr><td><strong>Friend Recs</strong></td><td colspan="2"><strong>Pastes in a group chat or Google Maps list → finds every place, who said it, and whether they loved it or said skip → plans only from those, and says when friends didn't cover something.</strong></td></tr>
+  </table>
+</section>
+
+<!-- 4. Agent diagram -->
+<section>
+  <p class="eyebrow">How it works</p>
+  <h2>Two agents, one tool, and code checks around every model call</h2>
+  {{DIAGRAM}}
+  <p class="tiny">Fixed pipeline, run by the backend: no agent can call another, loop, or take an action. Both agents use gpt-6-luna with strict JSON output.</p>
+</section>
+
+<!-- 5. Demo -->
+<section>
+  <p class="eyebrow">Demo</p>
+  <h2>"2 days in Lisbon, food and sunsets. Where should I stay?"</h2>
+  <div class="grid2">
+    <img class="shot" src="screenshots/03_ask_pins.jpg" alt="Map with numbered picks">
+    <img class="shot" src="screenshots/05_trace_answer.jpg" alt="How this answer was made">
+  </div>
+  <p class="tiny">4 numbered picks with friends' quotes · "No friend recommended a place to stay" · every step recorded: 780 input / 162 output tokens, $0.00016</p>
+</section>
+
+<!-- 6. Cost -->
+<section>
+  <p class="eyebrow">Tokenomics</p>
+  <h2>A fraction of a cent per question</h2>
+  <div class="grid3">
+    <div class="card stat"><b>$0.00017</b><span>per question (777 in / 188 out tokens)</span></div>
+    <div class="card stat"><b>$0.0025</b><span>per active user per month (3 imports, 10 questions)</span></div>
+    <div class="card stat"><b>$24.50</b><span>per month at 10,000 users (model only)</span></div>
+  </div>
+  <table style="margin-top:22px">
+    <tr><th>Reasoning effort</th><th class="num">Accuracy (23 places, 12 answer checks)</th><th class="num">Intake output tokens</th><th class="num">Answer output tokens</th></tr>
+    <tr><td><strong>low (shipped)</strong></td><td class="num">100%</td><td class="num">364</td><td class="num">188</td></tr>
+    <tr><td>medium (default)</td><td class="num">100%</td><td class="num">528</td><td class="num">289</td></tr>
+    <tr><td>high</td><td class="num">100%</td><td class="num">558</td><td class="num">264</td></tr>
+  </table>
+  <p class="tiny">Measured with scripts/benchmark.py (72 calls). Posts cost $0: no model. At scale, geocoding and hosting cost more than the model.</p>
+</section>
+
+<!-- 7. Safety -->
+<section>
+  <p class="eyebrow">Safety</p>
+  <h2>Every defense is code, and every one has a test</h2>
+  <div class="grid2" style="grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);">
+    <ul class="small">
+      <li><strong>Prompt injection:</strong> pasted text wrapped as data, instruction lines flagged; obeyed 0 of 9 benchmark attempts.</li>
+      <li><strong>Data leaks:</strong> phones and emails removed before the model; imports private.</li>
+      <li><strong>Invented facts:</strong> invented picks blocked, unlisted places cut, quotes from the database.</li>
+      <li><strong>Wrong actions and overspending:</strong> login and ownership checks; 4 calls and ~$0.01 max per run.</li>
+      <li><strong>16 of 16 tests pass.</strong> The benchmark even caught a false alarm in a filter, which got fixed.</li>
+    </ul>
+    <img class="shot" src="screenshots/06b_safety_crop.jpg" alt="Injection blocked and email removed" style="width:auto; max-height:500px; margin:0 auto;">
+  </div>
+</section>
+
+<!-- 8. Impact -->
+<section>
+  <p class="eyebrow">Impact</p>
+  <h2>Minutes of scrolling become seconds</h2>
+  <div class="grid3">
+    <div class="card stat"><b>~6 s</b><span>for a full trip answer from friends' recs</span></div>
+    <div class="card stat"><b>100%</b><span>of 23 places found with the right friend and sentiment</span></div>
+    <div class="card stat"><b>$0</b><span>to share a recommendation with friends</span></div>
+  </div>
+  <p class="todo" style="margin-top:24px"><b>TODO from user tests:</b> "Finding 3 friend recs took __:__ scrolling chats vs __:__ in Friend Recs (N = __)" and one real quote.</p>
+  <p class="quote">"TODO: best one-sentence quote from a tester."</p>
+</section>
+
+<!-- 9. Next steps -->
+<section>
+  <p class="eyebrow">Limits and next steps</p>
+  <h2>What's next</h2>
+  <div class="grid2">
+    <div>
+      <p class="small"><strong>Doesn't work yet</strong></p>
+      <ul class="small">
+        <li>Name-only geocoding can pick the wrong spot</li>
+        <li>Safety filters are heuristics (backed by the model and schemas)</li>
+        <li>Small synthetic benchmark; fictional sample data</li>
+        <li>No mobile app yet</li>
+      </ul>
+    </div>
+    <div>
+      <p class="small"><strong>Build next</strong></p>
+      <ul class="small">
+        <li>Share-sheet import from WhatsApp and iMessage</li>
+        <li>A real places API for matching and photos</li>
+        <li>Group trip maps</li>
+        <li>"Jordan just posted in Lisbon, which is on your list"</li>
+      </ul>
+    </div>
+  </div>
+  <p class="small" style="margin-top:30px"><strong>Thank you.</strong> Demo login: maya / friendrecs</p>
+</section>
+
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.0/dist/reveal.js"></script>
+<script type="text/plain" id="reveal-css-offline">{{REVEAL_CSS}}</script>
+<script type="text/plain" id="reveal-js-offline">{{REVEAL_JS}}</script>
+<script>
+  // Offline fallback: if the CDN didn't load, use the embedded copy of reveal.js 5.2.0.
+  if (!window.Reveal) {
+    const css = document.createElement('style');
+    css.textContent = document.getElementById('reveal-css-offline').textContent;
+    document.head.prepend(css);
+    (0, eval)(document.getElementById('reveal-js-offline').textContent);
+  }
+
+  Reveal.initialize({ hash: true, controls: true, progress: true, center: false, width: 1280, height: 720, margin: 0.05, transition: 'slide' });
+</script>
+</body>
+</html>

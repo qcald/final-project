@@ -1,0 +1,287 @@
+[
+  {
+    "id": "1d01bc60",
+    "key": "way/1286260412",
+    "name": "Time Out Market",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "category": "food",
+    "verified": true,
+    "lat": 38.7070934,
+    "lon": -9.1458973,
+    "address": "Time Out Market Lisboa, 49, Praça Dom Luís I, São Paulo, Misericórdia, Lisboa, 1200-479, Portugal",
+    "recs": [
+      {
+        "friend": "Jordan",
+        "quote": "touristy but honestly so fun for a first night",
+        "sentiment": "like"
+      }
+    ]
+  },
+  {
+    "id": "263b234b",
+    "key": "node/10729797752",
+    "name": "Manteigaria",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "category": "food",
+    "verified": true,
+    "lat": 38.7114911,
+    "lon": -9.1381025,
+    "address": "Manteigaria, Rua Augusta, Santa Maria Maior, Madalena, Lisboa, 1100-050, Portugal",
+    "recs": [
+      {
+        "friend": "Jordan",
+        "quote": "you HAVE to get pastéis at Manteigaria, way better than the famous Belém one imo",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "15a63b1b",
+    "key": "the famous belem one|lisbon",
+    "name": "the famous Belém one",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "category": "food",
+    "verified": false,
+    "lat": null,
+    "lon": null,
+    "address": "",
+    "recs": [
+      {
+        "friend": "Jordan",
+        "quote": "way better than the famous Belém one imo",
+        "sentiment": "avoid"
+      }
+    ]
+  },
+  {
+    "id": "fb831f22",
+    "key": "node/14243536001",
+    "name": "Miradouro da Senhora do Monte",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "category": "sight",
+    "verified": true,
+    "lat": 38.7190781,
+    "lon": -9.1329112,
+    "address": "Miradouro da Senhora do Monte, Rua da Senhora do Monte, Graça, São Vicente, Lisboa, 1170-112, Portugal",
+    "recs": [
+      {
+        "friend": "Priya",
+        "quote": "at sunset, bring wine",
+        "sentiment": "like"
+      }
+    ]
+  },
+  {
+    "id": "ea4464c5",
+    "key": "tram 28|lisbon",
+    "name": "Tram 28",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "category": "activity",
+    "verified": false,
+    "lat": null,
+    "lon": null,
+    "address": "",
+    "recs": [
+      {
+        "friend": "Priya",
+        "quote": "skip the Tram 28 line, 45 min wait and you're packed in like sardines",
+        "sentiment": "avoid"
+      }
+    ]
+  },
+  {
+    "id": "5eef2085",
+    "key": "node/2503432815",
+    "name": "Cervejaria Ramiro",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "category": "food",
+    "verified": true,
+    "lat": 38.7201981,
+    "lon": -9.1357063,
+    "address": "Cervejaria Ramiro, 104, Avenida Almirante Reis, Anjos, Arroios, Lisboa, 1169-199, Portugal",
+    "recs": [
+      {
+        "friend": "Sam",
+        "quote": "for seafood, get the garlic prawns and the steak sandwich at the end",
+        "sentiment": "like"
+      }
+    ]
+  },
+  {
+    "id": "8c4b5a37",
+    "key": "way/221960606",
+    "name": "LX Factory",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "category": "activity",
+    "verified": true,
+    "lat": 38.7026001,
+    "lon": -9.1786619,
+    "address": "LX Factory, 103, Alcântara, Lisboa, 1300-501, Portugal",
+    "recs": [
+      {
+        "friend": "Jordan",
+        "quote": "on a Sunday is a vibe",
+        "sentiment": "like"
+      }
+    ]
+  },
+  {
+    "id": "5dde07fa",
+    "key": "node/7827698785",
+    "name": "Ler Devagar",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "category": "shop",
+    "verified": true,
+    "lat": 38.7027611,
+    "lon": -9.178434,
+    "address": "Ler Devagar, 103, Rua Rodrigues Faria, Santo Amaro, Alcântara, Lisboa, 1300-501, Portugal",
+    "recs": [
+      {
+        "friend": "Jordan",
+        "quote": "good bookstore there too",
+        "sentiment": "like"
+      }
+    ]
+  },
+  {
+    "id": "e018ea3e",
+    "key": "node/1831390489",
+    "name": "Pena Palace",
+    "city": "Sintra",
+    "country": "Portugal",
+    "category": "sight",
+    "verified": true,
+    "lat": 38.7879657,
+    "lon": -9.3871284,
+    "address": "Palácio da Pena, Calçada da Pena, São Pedro de Penaferrim, Sintra, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Sintra, Lisboa, 2710-609, Portugal",
+    "recs": [
+      {
+        "friend": "Priya",
+        "quote": "go to Pena Palace early before the buses arrive",
+        "sentiment": "like"
+      }
+    ]
+  },
+  {
+    "id": "b801eab0",
+    "key": "node/4630628889",
+    "name": "Contramar",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "category": "food",
+    "verified": true,
+    "lat": 19.419611,
+    "lon": -99.1672259,
+    "address": "Contramar, 200, Calle Durango, Roma Norte, Condesa, Ciudad de México, Cuauhtémoc, Ciudad de México, 06700, México",
+    "recs": [
+      {
+        "friend": "Dana",
+        "quote": "for lunch, the tuna tostadas are the best thing I ate all trip. Book ahead.",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "3c38e2f7",
+    "key": "way/433756023",
+    "name": "Museo Nacional de Antropología",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "category": "sight",
+    "verified": true,
+    "lat": 19.4261524,
+    "lon": -99.1866516,
+    "address": "Museo Nacional de Antropología, Plaza de acceso, 1a. Sección del Bosque de Chapultepec, Polanco, Ciudad de México, Miguel Hidalgo, Ciudad de México, 11560, México",
+    "recs": [
+      {
+        "friend": "Dana",
+        "quote": "give it a full morning",
+        "sentiment": "like"
+      }
+    ]
+  },
+  {
+    "id": "1155f2b2",
+    "key": "node/4348835091",
+    "name": "Café Avellaneda",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "category": "coffee",
+    "verified": true,
+    "lat": 19.3482498,
+    "lon": -99.1606896,
+    "address": "Café Avellaneda, 40, Calle Higuera, Colonia La Concepción, Coyoacán, Ciudad de México, Coyoacán, Ciudad de México, 04020, México",
+    "recs": [
+      {
+        "friend": "Dana",
+        "quote": "tiny but the best coffee",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "66323461",
+    "key": "way/262616503",
+    "name": "Arena México",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "category": "activity",
+    "verified": true,
+    "lat": 19.4246141,
+    "lon": -99.1520014,
+    "address": "Arena México, Calle Doctor Rafaél Lucio, Doctores, Roma, Ciudad de México, Cuauhtémoc, Ciudad de México, 06720, México",
+    "recs": [
+      {
+        "friend": "Dana",
+        "quote": "Lucha libre at Arena México on a Tuesday night, super fun",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "7ec0ec2d",
+    "key": "node/12749170253",
+    "name": "El Huequito",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "category": "food",
+    "verified": true,
+    "lat": 19.4309211,
+    "lon": -99.1560155,
+    "address": "El Huequito, 91, Calle General Prim, Juárez, Roma, Ciudad de México, Cuauhtémoc, Ciudad de México, 06600, México",
+    "recs": [
+      {
+        "friend": "Dana",
+        "quote": "tacos al pastor, cheap and great",
+        "sentiment": "love"
+      }
+    ]
+  },
+  {
+    "id": "16de2bb0",
+    "key": "relation/5606640",
+    "name": "Xochimilco",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "category": "sight",
+    "verified": true,
+    "lat": 19.2633607,
+    "lon": -99.1047377,
+    "address": "Xochimilco, Ciudad de México, México",
+    "recs": [
+      {
+        "friend": "Dana",
+        "quote": "was kind of a letdown honestly, crowded and loud",
+        "sentiment": "avoid"
+      }
+    ]
+  }
+]

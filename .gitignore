@@ -1,0 +1,25 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Vite
+frontend/node_modules/
+# frontend/dist is committed on purpose: the backend serves it, so the app runs with Python alone
+frontend/.vite/
+
+# App database (rebuilt from data/sample_places.json on first run) and token-signing key.
+# output/usage.jsonl is committed on purpose: it is the token-count evidence cited in the report.
+data/friend_recs.db
+backend/.auth_secret
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
